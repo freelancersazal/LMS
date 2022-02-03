@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>MLS || Learning Management Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Petemoss&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!--==========================
+            TOPBAR START
+    ===========================-->
+    <section id="wsus__topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-8">
+                    <ul class="wsus__topbar_left">
+                        <li><a href="callto:+252202554545"><i class="far fa-phone-alt"></i> +252202554545</a></li>
+                        <li><a href="mailto:example@gmail.com"><i class="fal fa-envelope"></i> example@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-md-4">
+                    <ul class="wsus__topbar_right">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--==========================
+            TOPBAR END
+    ===========================-->
+
+
+    <!--==========================
+            MAIN MENU START
+    ===========================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-user-graduate"></i> lms</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="far fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home <i class="far fa-plus"></i></a>
+                        <ul class="wsus__droapdown">
+                            <li><a class="active" href="index.html">home 1</a></li>
+                            <li><a href="index_2.html">home 2</a></li>
+                            <li><a href="index_3.html">home 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">pages <i class="far fa-plus"></i></a>
+                        <ul class="wsus__droapdown">
+                            <li><a href="gallery.html">gallery</a></li>
+                            <li><a href="faq.html">faqs</a></li>
+                            <li><a href="instructors.html">Instructors</a></li>
+                            <li><a href="about_us.html">about us</a></li>
+                            <li><a href="become_a_teacher.html">become a teacher</a></li>
+                            <li><a class="active" href="cart_view.html">cart view</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <ul class="login_cart d-flex flex-wrap">
+                    <li><a class="nav-link" href="login.html">login</a></li>
+                    <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fal fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">cart item</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body cart_area">
+            <ul class="wsus__mini_cart">
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_1.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$150</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_2.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">The Complete Financial Analyst</a>
+                        <p>$40</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_3.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$50</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_4.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Those Other College Expenses You Aren`t Thinking About</a>
+                        <p>$99</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_1.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$150</p>
+                    </div>
+                </li>
+            </ul>
+            <h5>sub total <span>$720</span></h5>
+            <ul class="cart_btn d-flex justify-content-between">
+                <li><a class="common_btn" href="cart_view.html">cart view</a></li>
+                <li><a class="common_btn" href="#">checkout</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--==========================
+            MAIN MENU END
+    ===========================-->
+
+
+    <!--==========================
+        BREADCRUMB START
+    ===========================-->
+    <section class="wsus__breadcrumb">
+        <div class="wsus__breadcrumb_overlay pt_90 pb_90">
+            <div class="container">
+                <h4>cart view</h4>
+                <ul class="d-flex">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">classes</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        BREADCRUMB END
+    ===========================-->
+
+
+    <!--==========================
+        CART VIEW START
+    ===========================-->
+    <section class="wsus__cart_view mt_100 xs_mt_70">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="wsus__cart_list">
+                        <div class="table-responsive">
+                            <table>
+                                <tbody>
+                                    <tr class="d-flex">
+                                        <th class="wsus__pro_img">
+                                            courses name
+                                        </th>
+
+                                        <th class="wsus__pro_name">
+                                            courses details
+                                        </th>
+
+                                        <th class="wsus__pro_status">
+                                            status
+                                        </th>
+
+                                        <th class="wsus__pro_tk">
+                                            price
+                                        </th>
+
+                                        <th class="wsus__pro_icon">
+                                            <a href="#" class="common_btn">clear cart</a>
+                                        </th>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td class="wsus__pro_img"><img src="images/class_1.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="wsus__pro_name">
+                                            <p class="cart_view_title">men's fashion sholder leather bag</p>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                        </td>
+
+                                        <td class="wsus__pro_status">
+                                            <p>active</p>
+                                        </td>
+
+                                        <td class="wsus__pro_tk">
+                                            <h6>$180,00</h6>
+                                        </td>
+
+                                        <td class="wsus__pro_icon">
+                                            <a href="#"><i class="far fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td class="wsus__pro_img">
+                                            <img src="images/class_2.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="wsus__pro_name">
+                                            <p class="cart_view_title">mean's casula fashion watch</p>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus labore.</span>
+                                        </td>
+
+                                        <td class="wsus__pro_status">
+                                            <p>active</p>
+                                        </td>
+
+                                        <td class="wsus__pro_tk">
+                                            <h6>$140,00</h6>
+                                        </td>
+
+                                        <td class="wsus__pro_icon">
+                                            <a href="#"><i class="far fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td class="wsus__pro_img">
+                                            <img src="images/class_3.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+
+                                        <td class="wsus__pro_name">
+                                            <p class="cart_view_title">product name and details</p>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                                        </td>
+
+                                        <td class="wsus__pro_status">
+                                            <span>inactive</span>
+                                        </td>
+
+                                        <td class="wsus__pro_tk">
+                                            <h6>$220,00</h6>
+                                        </td>
+
+                                        <td class="wsus__pro_icon">
+                                            <a href="#"><i class="far fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr class="d-flex">
+                                        <td class="wsus__pro_img">
+                                            <img src="images/class_4.jpg" alt="product" class="img-fluid w-100">
+                                        </td>
+                                        <td class="wsus__pro_name">
+                                            <p class="cart_view_title">product name and details</p>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus.</span>
+                                        </td>
+
+                                        <td class="wsus__pro_status">
+                                            <span>inactive</span>
+                                        </td>
+
+                                        <td class="wsus__pro_tk">
+                                            <h6>$180.00</h6>
+                                        </td>
+
+                                        <td class="wsus__pro_icon">
+                                            <a href="#"><i class="far fa-times"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="check_out.html" class="btn common_btn">checkout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        CART VIEW END 
+    ===========================-->
+
+  
+    <!--==========================
+        FOOTER START
+    ===========================-->
+    <footer class="pt_100 xs_pt_70 mt_100 xs_mt_70">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-md-8 col-lg-6">
+                    <div class="wsus__footer_text">
+                        <a class="wsus__footer_logo" href="index.html"><i class="fas fa-user-graduate"></i> lms</a>
+                        <p class="footer_dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque assumenda hic sit tempore delectus.</p>
+                        <div class="wsus__footer_address">
+                            <a href="callto:01770502844"><i class="far fa-phone-alt"></i> +0254554558888777</a>
+                            <a href="mailto:example@gmail.com"><i class="fal fa-envelope"></i> example@gmail.com</a>
+                            <p><i class="fas fa-street-view"></i> 500 Treat Ave, Suite 200 San Francisco CA 94110</p>
+                            <p><i class="fal fa-globe"></i> www.example.com</p>
+                        </div>
+                        <ul class="footer_icon d-flex mt_30">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                    <div class="wsus__footer_text">
+                        <h4>company</h4>
+                        <ul class="wsus__footer_link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                    <div class="wsus__footer_text">
+                        <h4>neew help</h4>
+                        <ul class="wsus__footer_link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-8 col-lg-12">
+                    <div class="wsus__footer_text">
+                        <h4>gallery</h4>
+                        <div class="row">
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsus__copyrite mt_100 pt_30 pb_30 xs_mt_20 md_mt_60">
+            <p>© 2021 MLS (Learning Management Systems). all Rights Reserved</p>
+        </div>
+    </footer>
+    <!--==========================
+        FOOTER END
+    ===========================-->
+
+
+    <!--============================
+        SCROLL BUTTON START
+    ==============================-->
+    <div class="wsus__scroll_btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--============================
+        SCROLL BUTTON  END
+    ==============================-->
+    
+    
+    <!--jquery library js-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <!--slick js-->
+    <script src="js/slick.min.js"></script>
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--counter js-->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <!--venobox js-->
+    <script src="js/venobox.min.js"></script>
+    <!--select2 js-->
+    <script src="js/select2.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!--particle js-->
+    <script src="js/particle.min.js"></script>
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+</body>
+</html>

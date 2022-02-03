@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>MLS || Learning Management Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Petemoss&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!--==========================
+            TOPBAR START
+    ===========================-->
+    <section id="wsus__topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-8">
+                    <ul class="wsus__topbar_left">
+                        <li><a href="callto:+252202554545"><i class="far fa-phone-alt"></i> +252202554545</a></li>
+                        <li><a href="mailto:example@gmail.com"><i class="fal fa-envelope"></i> example@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-md-4">
+                    <ul class="wsus__topbar_right">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--==========================
+            TOPBAR END
+    ===========================-->
+
+
+    <!--==========================
+            MAIN MENU START
+    ===========================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-user-graduate"></i> lms</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="far fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home <i class="far fa-plus"></i></a>
+                        <ul class="wsus__droapdown">
+                            <li><a class="active" href="index.html">home 1</a></li>
+                            <li><a href="index_2.html">home 2</a></li>
+                            <li><a href="index_3.html">home 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pages <i class="far fa-plus"></i></a>
+                        <ul class="wsus__droapdown">
+                            <li><a href="gallery.html">gallery</a></li>
+                            <li><a href="faq.html">faqs</a></li>
+                            <li><a href="instructors.html">Instructors</a></li>
+                            <li><a href="about_us.html">about us</a></li>
+                            <li><a href="become_a_teacher.html">become a teacher</a></li>
+                            <li><a href="cart_view.html">cart view</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <ul class="login_cart d-flex flex-wrap">
+                    <li><a class="nav-link" href="login.html">login</a></li>
+                    <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fal fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">cart item</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body cart_area">
+            <ul class="wsus__mini_cart">
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_1.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$150</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_2.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">The Complete Financial Analyst</a>
+                        <p>$40</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_3.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$50</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_4.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Those Other College Expenses You Aren`t Thinking About</a>
+                        <p>$99</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_1.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$150</p>
+                    </div>
+                </li>
+            </ul>
+            <h5>sub total <span>$720</span></h5>
+            <ul class="cart_btn d-flex justify-content-between">
+                <li><a class="common_btn" href="cart_view.html">cart view</a></li>
+                <li><a class="common_btn" href="#">checkout</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--==========================
+            MAIN MENU END
+    ===========================-->
+
+  
+    <!--==========================
+        BREADCRUMB START
+    ===========================-->
+    <section class="wsus__breadcrumb">
+        <div class="wsus__breadcrumb_overlay pt_90 pb_90">
+            <div class="container">
+                <h4>blogs details</h4>
+                <ul class="d-flex">
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">blogs details</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        BREADCRUMB END
+    ===========================-->
+
+
+    <!--============================
+        BLOGS DETAILS START
+    ==============================-->
+    <section class="wsus__blog_details mt_100 mb_100 xs_mt_70 xs_mb_70">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 mb-4 mb-lg-0">
+                    <div class="wsus__courses_sidebar_filter mb_30 d-none">
+                        <p><i class="fal fa-sort-amount-down"></i> Filter Category</p>
+                        <span class="filter_icon">
+                            <i class="far fa-plus" id="plus"></i>
+                            <i class="far fa-minus" id="minus"></i>
+                        </span>
+                    </div>
+                   <div class="wsus__courses_sidebar p_30" id="sticky_sidebar">
+                       <div class="wsus__courses_sidebar_single">
+                           <h4>search blog</h4>
+                           <form>
+                               <input type="text" placeholder="Search...">
+                               <button class="" type="submit"><i class="far fa-search"></i></button>
+                           </form>
+                       </div>
+                       <div class="wsus__courses_sidebar_single">
+                           <h4>recent blogs</h4>
+                           <div class="wsus__sidebar_course">
+                                <img src="images/class_1.jpg" alt="courses" class="img-fluid">
+                                <div class="wsus__sidebar_course_text">
+                                    <a href="#">Bases Matematicas dios</a>
+                                    <p>25 nov 2021</p>
+                                </div>
+                           </div>
+                           <div class="wsus__sidebar_course">
+                                <img src="images/class_2.jpg" alt="courses" class="img-fluid">
+                                <div class="wsus__sidebar_course_text">
+                                    <a href="#">Achieving Advanced In Big</a>
+                                    <p>25 nov 2021</p>
+                                </div>
+                           </div>
+                           <div class="wsus__sidebar_course">
+                                <img src="images/class_3.jpg" alt="courses" class="img-fluid">
+                                <div class="wsus__sidebar_course_text">
+                                    <a href="#">Bases Matematicas dios</a>
+                                    <p>25 nov 2021</p>
+                                </div>
+                           </div>
+                           <div class="wsus__sidebar_course">
+                                <img src="images/class_4.jpg" alt="courses" class="img-fluid">
+                                <div class="wsus__sidebar_course_text">
+                                    <a href="#">Bases Matematicas dios</a>
+                                    <p>25 nov 2021</p>
+                                </div>
+                           </div>
+                       </div>
+                       <div class="wsus__courses_sidebar_single">
+                           <h4>blog Category</h4>
+                           <ul class="category_link">
+                               <li><a href="#">Data Science & Analytics</a></li>
+                               <li><a href="#">Computer Science</a></li>
+                               <li><a href="#">Foreign Language</a></li>
+                               <li><a href="#">English language</a></li>
+                               <li><a href="#">James Arnold</a></li>
+                               <li><a href="#">HTML</a></li>
+                               <li><a href="#">CSS</a></li>
+                               <li><a href="#">bttostrap</a></li>
+                           </ul>
+                       </div>
+                       <div class="wsus__courses_sidebar_single">
+                           <h4>related tag</h4>
+                           <ul class="tag_link">
+                               <li><a href="#">Art</a></li>
+                               <li><a href="#">Creative</a></li>
+                               <li><a href="#">Article</a></li>
+                               <li><a href="#">Designer</a></li>
+                               <li><a href="#">Portfolio</a></li>
+                               <li><a href="#">Project</a></li>
+                               <li><a href="#">Personal</a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+                <div class="col-xl-9 col-lg-8">
+                    <div class="wsus__main_blog">
+                        <div class="wsus__main_blog_img">
+                            <img src="images/blog_details.jpg" alt="blog" class="img-fluid w-100">
+                        </div>
+                        <p class="wsus__main_blog_header">
+                            <span><i class="fas fa-user-tie"></i> by dabasis</span>
+                            <span><i class="fal fa-calendar-alt"></i> dec 04 2021</span> 
+                            <span><i class="fal fa-comment-alt-smile"></i> 0 Comment</span>
+                            <span><i class="far fa-eye"></i> 11 Views</span>
+                        </p>
+                        <h2>Fashion tells about who you are from external point</h2>
+                        <p class="wsus__blog_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta perferendis cumque nam dolorum dignissimos nisi totam labore minus deleniti fuga molestias ab quo necessitatibus provident, corrupti ipsam hic. Dolorum tenetur nam fugiat molestiae veritatis sequi ad quia, id eos officiis aliquid numquam iusto sint iure eaque? Deserunt id inventore .
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate omnis placeat accusamus vel suscipit. Accusamus pariatur earum nobis eos laudantium vitae veniam incidunt, reprehenderit voluptates voluptate! Animi impedit asperiores corrupti assumenda suscipit beatae laboriosam, enim eaque iure. Ipsa nostrum iure temporibus esse.</span>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate omnis placeat accusamus vel suscipit. Accusamus pariatur earum nobis eos laudantium vitae veniam incidunt, reprehenderit voluptates voluptate! Animi impedit asperiores corrupti assumenda suscipit beatae laboriosam, enim eaque iure. Ipsa nostrum iure temporibus esse.</span>
+                        </p>
+                        <div class="wsus__blog_quot_area p_40 mt_60 mb_60">
+                            <i class="far fa-quote-left"></i>
+                            <p>War and Marketing Have Many Similarities</p>
+                            <span>JELLY CRISTIANA</span>
+                        </div>
+                        <h5>Defaulting to Mindfulness: The Third Person Effect</h5>
+                        <div class="wsus__blog_list_text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit accusamus ipsum sapiente nihil nulla! Animi ratione nesciunt deserunt ducimus, eos vitae rem illum minima recusandae harum fuga, veritatis necessitatibus enim voluptates totam atque consequatur.</p>
+                            <ul>
+                                <li>Nunc nec porttitor turpis. In eu risus enim neque, aliquet ve In vitae mollis elit.</li>
+                                <li>Vivamus finibus vel mauris eu risus enut vehicula.</li>
+                                <li>Nullam a magna porttitor, dictum risus nec, fauci eu risus enbus sapien.</li>
+                                <li>Ultrices eros in eu risus encursus turpis massa tincidunt ante.</li>
+                                <li>porttitor turpis. In eu risus enim neque, aliquet ve In vitae mollis elit.</li>
+                            </ul>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum optio, porro sed eligendi vitae rem quos, rerum, quas alias numquam at fuga? Architecto nulla delectus perspiciatis sint atque sapiente.</p>
+                        </div>
+                        <div class="wsus__share_blog">
+                            <p>share:</p>
+                            <ul>
+                                <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="wsus__related_post">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <h5>related post</h5>
+                                </div>
+                                <div class="col-xl-6 col-sm-6">
+                                    <div class="wsus__single_blog">
+                                        <a class="wsus__blog_img" href="#">
+                                            <img src="images/blog_1.jpg" alt="blog" class="img-fluid w-100">
+                                        </a>
+                                        <div class="wsus__blog_text">
+                                            <a class="blog_tag yellow" href="#">technology</a>
+                                            <img src="images/blooger.jpg" alt="bloger" class="img-fluid w-100">
+                                            <a class="blog_title" href="#">Those Other College Expenses You Aren`t Thinking About</a>
+                                        </div>
+                                        <ul class="wsus__blog_footer">
+                                            <li><i class="far fa-heart"></i> 120</li>
+                                            <li><i class="far fa-comment-dots"></i> 345</li>
+                                            <li><i class="far fa-eye"></i> 567</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-sm-6">
+                                    <div class="wsus__single_blog">
+                                        <a class="wsus__blog_img" href="#">
+                                            <img src="images/blog_2.jpg" alt="blog" class="img-fluid w-100">
+                                        </a>
+                                        <div class="wsus__blog_text">
+                                            <a class="blog_tag red" href="#">marketing</a>
+                                            <img src="images/blooger2.jpg" alt="bloger" class="img-fluid w-100">
+                                            <a class="blog_title" href="#">Those Other College Expenses You Aren`t Thinking About</a>
+                                        </div>
+                                        <ul class="wsus__blog_footer">
+                                            <li><i class="far fa-heart"></i> 120</li>
+                                            <li><i class="far fa-comment-dots"></i> 345</li>
+                                            <li><i class="far fa-eye"></i> 567</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wsus__details_single_row">
+                            <div class="wsus__comment_area">
+                                <h4>comments <span>4</span></h4>
+                                <div class="wsus__single_comment">
+                                    <div class="wsus__comment_img">
+                                        <img src="images/blooger3.jpg" alt="user" class="img-fluid">
+                                    </div>
+                                    <div class="wsus__comment_text">
+                                        <h6>jhon deo <span><i class="far fa-clock"></i> 20 hour ago</span></h6>
+                                        <p>I want to know all the details about this Course</p>
+                                        <a href="#" class="wsus__com_replay"><i class="far fa-reply"></i> replay</a>
+                                    </div>
+                                </div>
+                                <div class="wsus__single_comment">
+                                    <div class="wsus__comment_img">
+                                        <img src="images/blooger2.jpg" alt="user" class="img-fluid">
+                                    </div>
+                                    <div class="wsus__comment_text">
+                                        <h6>jacika lina <span><i class="far fa-clock"></i> 12 min ago</span></h6>
+                                        <p>I want to know all the details about this Course</p>
+                                        <a href="#" class="wsus__com_replay"><i class="far fa-reply"></i> replay</a>
+                                    </div>
+                                </div>
+                                <div class="wsus__single_comment">
+                                    <div class="wsus__comment_img">
+                                        <img src="images/blooger.jpg" alt="user" class="img-fluid">
+                                    </div>
+                                    <div class="wsus__comment_text">
+                                        <h6>sumona jahan <span><i class="far fa-clock"></i> 5 min ago</span></h6>
+                                        <p>I want to know all the details about this Course</p>
+                                        <a href="#" class="wsus__com_replay"><i class="far fa-reply"></i> replay</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-12 mt_30">
+                                <div class="wsus__pagination">
+                                    <nav aria-label="...">
+                                        <ul class="pagination">
+                                          <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-left"></i></a></li>
+                                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                          <li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
+                                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                          <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-double-right"></i></a></li>
+                                        </ul>
+                                      </nav>
+                                </div>
+                            </div>
+                            <div class="wsus__post_comment mt_40">
+                                <h4>post a commment</h4>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Name">
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <input type="text" placeholder="Email">
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <textarea cols="3" rows="5" placeholder="Your Comment"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="common_btn">post comment</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============================
+        BLOGS DETAILS END
+    ==============================-->
+
+
+    <!--==========================
+        FOOTER START
+    ===========================-->
+    <footer class="pt_100 xs_pt_70">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-md-8 col-lg-6">
+                    <div class="wsus__footer_text">
+                        <a class="wsus__footer_logo" href="index.html"><i class="fas fa-user-graduate"></i> lms</a>
+                        <p class="footer_dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque assumenda hic sit tempore delectus.</p>
+                        <div class="wsus__footer_address">
+                            <a href="callto:01770502844"><i class="far fa-phone-alt"></i> +0254554558888777</a>
+                            <a href="mailto:example@gmail.com"><i class="fal fa-envelope"></i> example@gmail.com</a>
+                            <p><i class="fas fa-street-view"></i> 500 Treat Ave, Suite 200 San Francisco CA 94110</p>
+                            <p><i class="fal fa-globe"></i> www.example.com</p>
+                        </div>
+                        <ul class="footer_icon d-flex mt_30">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                    <div class="wsus__footer_text">
+                        <h4>company</h4>
+                        <ul class="wsus__footer_link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                    <div class="wsus__footer_text">
+                        <h4>neew help</h4>
+                        <ul class="wsus__footer_link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-8 col-lg-12">
+                    <div class="wsus__footer_text">
+                        <h4>gallery</h4>
+                        <div class="row">
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsus__copyrite mt_100 pt_30 pb_30 xs_mt_20 md_mt_60">
+            <p>© 2021 MLS (Learning Management Systems). all Rights Reserved</p>
+        </div>
+    </footer>
+    <!--==========================
+        FOOTER END
+    ===========================-->
+
+
+    <!--============================
+        SCROLL BUTTON START
+    ==============================-->
+    <div class="wsus__scroll_btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--============================
+        SCROLL BUTTON  END
+    ==============================-->
+    
+    
+    <!--jquery library js-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <!--slick js-->
+    <script src="js/slick.min.js"></script>
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--counter js-->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <!--venobox js-->
+    <script src="js/venobox.min.js"></script>
+    <!--select2 js-->
+    <script src="js/select2.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!--particle js-->
+    <script src="js/particle.min.js"></script>
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+</body>
+</html>

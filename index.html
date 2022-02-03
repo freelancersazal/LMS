@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densityDpi=device-dpi" />
+    <title>MLS || Learning Management Systems</title>
+    <link href="https://fonts.googleapis.com/css2?family=Petemoss&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/spacing.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/select2.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!--==========================
+            TOPBAR START
+    ===========================-->
+    <section id="wsus__topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-8">
+                    <ul class="wsus__topbar_left">
+                        <li><a href="callto:+252202554545"><i class="far fa-phone-alt"></i> +252202554545</a></li>
+                        <li><a href="mailto:example@gmail.com"><i class="fal fa-envelope"></i> example@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-md-4">
+                    <ul class="wsus__topbar_right">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!--==========================
+            TOPBAR END
+    ===========================-->
+
+
+    <!--==========================
+            MAIN MENU START
+    ===========================-->
+    <nav class="navbar navbar-expand-lg main_menu">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-user-graduate"></i> lms</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="far fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home <i class="far fa-plus"></i></a>
+                        <ul class="wsus__droapdown">
+                            <li><a class="active" href="index.html">home 1</a></li>
+                            <li><a href="index_2.html">home 2</a></li>
+                            <li><a href="index_3.html">home 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="packages.html">package</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">pages <i class="far fa-plus"></i></a>
+                        <ul class="wsus__droapdown">
+                            <li><a href="gallery.html">gallery</a></li>
+                            <li><a href="faq.html">faqs</a></li>
+                            <li><a href="instructors.html">Instructors</a></li>
+                            <li><a href="about_us.html">about us</a></li>
+                            <li><a href="become_a_teacher.html">become a teacher</a></li>
+                            <li><a href="cart_view.html">cart view</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+                </ul>
+                <ul class="login_cart d-flex flex-wrap">
+                    <li><a class="nav-link" href="login.html">login</a></li>
+                    <li><a href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fal fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">cart item</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body cart_area">
+            <ul class="wsus__mini_cart">
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_1.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$150</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_2.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">The Complete Financial Analyst</a>
+                        <p>$40</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_3.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$50</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_4.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Those Other College Expenses You Aren`t Thinking About</a>
+                        <p>$99</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="cart_img">
+                        <a href="#" class="del_icon"><i class="fal fa-times"></i></a>
+                        <img src="images/class_1.jpg" alt="classes" class="img-fluid w-100">
+                    </div>
+                    <div class="cart_text">
+                        <a href="#">Development theory learn</a>
+                        <p>$150</p>
+                    </div>
+                </li>
+            </ul>
+            <h5>sub total <span>$720</span></h5>
+            <ul class="cart_btn d-flex justify-content-between">
+                <li><a class="common_btn" href="cart_view.html">cart view</a></li>
+                <li><a class="common_btn" href="#">checkout</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--==========================
+            MAIN MENU END
+    ===========================-->
+
+    
+    <!--==========================
+        BANNER START
+    ===========================-->
+    <section id="wsus__banner">
+        <div class="wsus__banner_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-7 col-lg-6">
+                        <div class="wsus__banner_text">
+                            <div class="wsus__banner_text_center">
+                                <h1>Course LMS, Best Online Learning Platform</h1>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium dolorum dicta, aspernatur voluptatum ullam architecto quia modi commodi pariatur nihil praesentium nostrum minima facilis sit id alias numquam nobis officiis.</p>
+                                <a href="#" class="common_btn">learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-5 col-sm-8 m-sm-auto col-xl-5 col-lg-6 col-md-8 m-md-auto offset-xxl-1 mt-md-5">
+                        <div class="wsus__banner_img">
+                            <img src="images/banner_img.png" alt="student" class="img-fluid w-100 banner_top_img">
+                            <img src="images/banner_shape.png" alt="student" class="img-fluid round_shape">
+                        </div>
+                    </div>
+                </div>
+                <img src="images/banner_shape.png" alt="shape" class="img-fluid banner_shape">
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        BANNER END
+    ===========================-->
+
+
+    <!--==========================
+        SINGLE COURSE START
+    ===========================-->
+    <section id="wsus__single_course">
+        <div class="wsus__single_course_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="wsus__single_course_det">
+                            <span class="icon"><i class="fal fa-mouse-pointer"></i></span>
+                            <div class="text">
+                                <h3>12 Online courses</h3>
+                                <p>Explore a variety of fresh topics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="wsus__single_course_det">
+                            <span class="icon"><i class="fas fa-users"></i></span>
+                            <div class="text">
+                                <h3>Expert Instructions</h3>
+                                <p>Find the right instructor for you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="wsus__single_course_det">
+                            <span class="icon"><i class="far fa-clock"></i></span>
+                            <div class="text">
+                                <h3>Lifetime access</h3>
+                                <p>Learn on your schedule</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        SINGLE COURSE END
+    ===========================-->
+
+    
+    <!--==========================
+        APPLY AREA START
+    ===========================-->
+    <section id="wsua__apply_area" class="mt_100 xs_mt_70">
+        <div class="container">
+            <div class="row apply_slider">
+                <div class="col-xl-3">
+                    <div class="wsua__apply_single green">
+                        <i class="fal fa-tv"></i>
+                        <h4>online apply</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsua__apply_single yellow">
+                        <i class="fal fa-users-class"></i>
+                        <h4>online class</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsua__apply_single red">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>scholarship</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsua__apply_single blue">
+                        <i class="fal fa-bell"></i>
+                        <h4>press release</h4>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsua__apply_single yellow">
+                        <i class="fal fa-users-class"></i>
+                        <h4>online class</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        APPLY AREA END
+    ===========================-->
+
+    
+    <!--==========================
+        COURSES START
+    ===========================-->
+    <section class="wsus__courses mt_100 pt_90 pb_100 xs_mt_70 xs_pt_60 xs_pb_65">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                    <div class="wsus__heading_area">
+                        <h3 class="heading_title">our courses</h3>
+                        <p class="heading_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                    </div> 
+                </div>
+                <div class="col-12 text-center">
+                    <div class="courses_filter">
+                        <button class=" active" data-filter="*">all</button>
+                        <button data-filter=".bus">Business</button>
+                        <button data-filter=".ban">Banking</button>
+                        <button data-filter=".apps">Apps</button>
+                        <button data-filter=".photo">Photography</button>
+                        <button data-filter=".music">Music</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row grid">
+                <div class="col-xl-4 col-md-6 col-lg-4 ban photo">
+                    <div class="wsus__single_courses">
+                        <div class="wsus__single_courses_img">
+                            <a class="wsus__courses_link" href="courses_details.html"><img src="images/class_6.jpg" alt="classes" class="img-dluid w-100"></a>
+                            <div class="wsus__courses_tag">
+                                <a class="art" href="#">design</a>
+                                <a class="design" href="#">art</a>
+                            </div>
+                            <div class="wsus__courses__rating">
+                                <span><i class="fas fa-user"></i> 120 student</span>
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wsus__single_courses_text">
+                            <a class="wsus__courses_title" href="courses_details.html">Development theory learn</a>
+                            <p class="wsus__courses_des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam porro repellat nulla placeat inventore ipsam doloribus.</p>
+                            <div class="wsus__courses_btn">
+                                <span><i class="fab fa-bitcoin"></i> free</span>
+                                <a class="common_btn2" href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4 bus apps music">
+                    <div class="wsus__single_courses">
+                        <div class="wsus__single_courses_img">
+                            <a class="wsus__courses_link" href="courses_details.html"><img src="images/class_5.jpg" alt="classes" class="img-dluid w-100"></a>
+                            <div class="wsus__courses_tag">
+                                <a class="art" href="#">design</a>
+                                <a class="design" href="#">art</a>
+                            </div>
+                            <div class="wsus__courses__rating">
+                                <span><i class="fas fa-user"></i> 120 student</span>
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wsus__single_courses_text">
+                            <a class="wsus__courses_title" href="courses_details.html">Learn Photography</a>
+                            <p class="wsus__courses_des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam porro repellat nulla placeat inventore ipsam doloribus.</p>
+                            <div class="wsus__courses_btn">
+                                <span><i class="fab fa-bitcoin"></i> paid</span>
+                                <a class="common_btn2" href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4 ban apps">
+                    <div class="wsus__single_courses">
+                        <div class="wsus__single_courses_img">
+                            <a class="wsus__courses_link" href="courses_details.html"><img src="images/class_4.jpg" alt="classes" class="img-dluid w-100"></a>
+                            <div class="wsus__courses_tag">
+                                <a class="art" href="#">design</a>
+                                <a class="design" href="#">art</a>
+                            </div>
+                            <div class="wsus__courses__rating">
+                                <span><i class="fas fa-user"></i> 120 student</span>
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wsus__single_courses_text">
+                            <a class="wsus__courses_title" href="courses_details.html">Advance Wordpress</a>
+                            <p class="wsus__courses_des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam porro repellat nulla placeat inventore ipsam doloribus.</p>
+                            <div class="wsus__courses_btn">
+                                <span><i class="fab fa-bitcoin"></i> free</span>
+                                <a class="common_btn2" href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4 bus photo music">
+                    <div class="wsus__single_courses">
+                        <div class="wsus__single_courses_img">
+                            <a class="wsus__courses_link" href="courses_details.html"><img src="images/class_3.jpg" alt="classes" class="img-dluid w-100"></a>
+                            <div class="wsus__courses_tag">
+                                <a class="art" href="#">design</a>
+                                <a class="design" href="#">art</a>
+                            </div>
+                            <div class="wsus__courses__rating">
+                                <span><i class="fas fa-user"></i> 120 student</span>
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wsus__single_courses_text">
+                            <a class="wsus__courses_title" href="courses_details.html">The Complete Financial Analyst</a>
+                            <p class="wsus__courses_des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam porro repellat nulla placeat inventore ipsam doloribus.</p>
+                            <div class="wsus__courses_btn">
+                                <span><i class="fab fa-bitcoin"></i> paid</span>
+                                <a class="common_btn2" href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4 ban photo">
+                    <div class="wsus__single_courses">
+                        <div class="wsus__single_courses_img">
+                            <a class="wsus__courses_link" href="courses_details.html"><img src="images/class_2.jpg" alt="classes" class="img-dluid w-100"></a>
+                            <div class="wsus__courses_tag">
+                                <a class="art" href="#">design</a>
+                                <a class="design" href="#">art</a>
+                            </div>
+                            <div class="wsus__courses__rating">
+                                <span><i class="fas fa-user"></i> 120 student</span>
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wsus__single_courses_text">
+                            <a class="wsus__courses_title" href="courses_details.html">Outcome Based Education</a>
+                            <p class="wsus__courses_des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam porro repellat nulla placeat inventore ipsam doloribus.</p>
+                            <div class="wsus__courses_btn">
+                                <span><i class="fab fa-bitcoin"></i> free</span>
+                                <a class="common_btn2" href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4 bus apps music">
+                    <div class="wsus__single_courses">
+                        <div class="wsus__single_courses_img">
+                            <a class="wsus__courses_link" href="courses_details.html"><img src="images/class_1.jpg" alt="classes" class="img-dluid w-100"></a>
+                            <div class="wsus__courses_tag">
+                                <a class="art" href="#">design</a>
+                                <a class="design" href="#">art</a>
+                            </div>
+                            <div class="wsus__courses__rating">
+                                <span><i class="fas fa-user"></i> 120 student</span>
+                                <p>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="wsus__single_courses_text">
+                            <a class="wsus__courses_title" href="courses_details.html">Development theory learn</a>
+                            <p class="wsus__courses_des">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam porro repellat nulla placeat inventore ipsam doloribus.</p>
+                            <div class="wsus__courses_btn">
+                                <span><i class="fab fa-bitcoin"></i> free</span>
+                                <a class="common_btn2" href="#">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        COURSES END
+    ===========================-->
+
+  
+    <!--==========================
+        WHY CHOOSR START
+    ===========================-->
+    <section class="wsus__why_choose mt_90 xs_mt_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                    <div class="wsus__heading_area">
+                        <h3 class="heading_title">Why Choose Us</h3>
+                        <p class="heading_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__single_choose">
+                        <i class="fal fa-users-cog"></i>
+                        <h4>Top Paid Faculity</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe odio.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__single_choose">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h4>Graduation Certificate</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe odio.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__single_choose">
+                        <i class="far fa-book-open"></i>
+                        <h4>Course Facilities</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe odio.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__single_choose">
+                        <i class="fas fa-user-cog"></i>
+                        <h4>Free Materials</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe odio.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__single_choose">
+                        <i class="fal fa-books"></i>
+                        <h4>Free Books Library</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe odio.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-lg-4">
+                    <div class="wsus__single_choose">
+                        <i class="fal fa-headset"></i>
+                        <h4>24/7 Support</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Saepe odio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        WHY CHOOSR END
+    ===========================-->
+
+
+    <!--==========================
+        INSTRUCTOR START
+    ===========================-->
+    <section class="wsus__instructor mt_75 xs_mt_45">
+        <div class="wsus__instructor_overlay pt_95 pb_70 xs_pt_60 xs_pb_35">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                        <div class="wsus__heading_area">
+                            <h3 class="heading_title text-white">World-class Instructors</h3>
+                            <p class="heading_dis text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row teacher_slider">
+                    <div class="col-xl-3">
+                        <div class="wsus__single_teacher">
+                            <a class="wsus__single_teacher_img" href="instructors_details.html">
+                                <img src="images/teacher_1.jpg" alt="teacher" class="img-fluid w-100">
+                            </a>
+                            <div class="wsus__single_teacher_text">
+                                <a class="teacher_name" href="instructors_details.html">diganta chakma</a>
+                                <p>tecnical instructor</p>
+                                <ul class="d-flex justify-content-center">
+                                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="wsus__single_teacher">
+                            <a class="wsus__single_teacher_img" href="instructors_details.html">
+                                <img src="images/teacher_2.jpg" alt="teacher" class="img-fluid w-100">
+                            </a>
+                            <div class="wsus__single_teacher_text">
+                                <a class="teacher_name" href="instructors_details.html">dilara jahan</a>
+                                <p>tecnical instructor</p>
+                                <ul class="d-flex justify-content-center">
+                                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="wsus__single_teacher">
+                            <a class="wsus__single_teacher_img" href="instructors_details.html">
+                                <img src="images/teacher_3.jpg" alt="teacher" class="img-fluid w-100">
+                            </a>
+                            <div class="wsus__single_teacher_text">
+                                <a class="teacher_name" href="instructors_details.html">sunil sing</a>
+                                <p>tecnical instructor</p>
+                                <ul class="d-flex justify-content-center">
+                                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="wsus__single_teacher">
+                            <a class="wsus__single_teacher_img" href="instructors_details.html">
+                                <img src="images/teacher_4.jpg" alt="teacher" class="img-fluid w-100">
+                            </a>
+                            <div class="wsus__single_teacher_text">
+                                <a class="teacher_name" href="instructors_details.html">youna chakma</a>
+                                <p>tecnical instructor</p>
+                                <ul class="d-flex justify-content-center">
+                                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="wsus__single_teacher">
+                            <a class="wsus__single_teacher_img" href="instructors_details.html">
+                                <img src="images/teacher_2.jpg" alt="teacher" class="img-fluid w-100">
+                            </a>
+                            <div class="wsus__single_teacher_text">
+                                <a class="teacher_name" href="instructors_details.html">dilara jahan</a>
+                                <p>tecnical instructor</p>
+                                <ul class="d-flex justify-content-center">
+                                    <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        INSTRUCTOR END
+    ===========================-->
+
+    
+    <!--==========================
+        FEATURES START
+    ===========================-->
+    <section class="wsus__features mt_90 xs_mt_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                    <div class="wsus__heading_area">
+                        <h3 class="heading_title">More Features Has LMS</h3>
+                        <p class="heading_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-tachometer-alt-fast"></i>
+                        <p>Optimized Performance</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="far fa-tv"></i>
+                        <p>One Click Update System</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-undo"></i>
+                        <p>Supports RESTful APIs</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="far fa-code"></i>
+                        <p>Clean Code Quality</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-wand-magic"></i>
+                        <p>Installation the Wizard</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-palette"></i>
+                        <p>Themes & Colors Options</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="far fa-home"></i>
+                        <p>Multi Lingual</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-desktop"></i>
+                        <p>Fully Responsive</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-paragraph-rtl"></i>
+                        <p>Supports RTL</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-filter"></i>
+                        <p>IP Filter & Block</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-envelope-open"></i>
+                        <p>Email SMS</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-alarm-snooze"></i>
+                        <p>SMS Notification</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-notes-medical"></i>
+                        <p>Printable Reports</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="far fa-tools"></i>
+                        <p>Inbuilt Backup Tool</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-clipboard"></i>
+                        <p>Activity & Email</p>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-sm-6 col-md-4 col-lg-3">
+                    <div class="wsus__single_features">
+                        <i class="fal fa-print"></i>
+                        <p>Printable Reports</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        FEATURES END
+    ===========================-->
+
+
+    <!--==========================
+        COUNTER START
+    ===========================-->
+    <section class="wsus__counter mt_75 pt_90 pb_100 xs_pt_65 xs_pb_45 xs_mt_45">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                    <div class="wsus__heading_area">
+                        <h3 class="heading_title">Strength in Numbers</h3>
+                        <p class="heading_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="wsus__single_counter">
+                        <i class="far fa-cloud-download-alt"></i>
+                        <h4><span class="counter">230</span> k+</h4>
+                        <p>Downloaded</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="wsus__single_counter">
+                        <i class="fal fa-comment-smile"></i>
+                        <h4><span class="counter">20</span> k+</h4>
+                        <p>Feedback</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="wsus__single_counter">
+                        <i class="fal fa-user-hard-hat"></i>
+                        <h4><span class="counter">10</span> k+</h4>
+                        <p>Worker</p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-sm-6 col-lg-3">
+                    <div class="wsus__single_counter">
+                        <i class="fab fa-accusoft"></i>
+                        <h4><span class="counter">150</span> k+</h4>
+                        <p>Contributors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        COUNTER END
+    ===========================-->
+
+
+    <!--==========================
+        BLOG START
+    ===========================-->
+    <section class="wsus__blog mt_95 xs_mt_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                    <div class="wsus__heading_area">
+                        <h3 class="heading_title">our Latest Blog </h3>
+                        <p class="heading_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-4">
+                    <div class="wsus__single_blog">
+                        <a class="wsus__blog_img" href="blog_details.html">
+                            <img src="images/blog_1.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_tag yellow" href="">technology</a>
+                            <img src="images/blooger.jpg" alt="bloger" class="img-fluid w-100">
+                            <a class="blog_title" href="blog_details.html">Those Other College Expenses You Aren`t Thinking About</a>
+                        </div>
+                        <ul class="wsus__blog_footer">
+                            <li><i class="far fa-heart"></i> 120</li>
+                            <li><i class="far fa-comment-dots"></i> 345</li>
+                            <li><i class="far fa-eye"></i> 567</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-4">
+                    <div class="wsus__single_blog">
+                        <a class="wsus__blog_img" href="blog_details.html">
+                            <img src="images/blog_2.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_tag red" href="#">marketing</a>
+                            <img src="images/blooger2.jpg" alt="bloger" class="img-fluid w-100">
+                            <a class="blog_title" href="blog_details.html">Those Other College Expenses You Aren`t Thinking About</a>
+                        </div>
+                        <ul class="wsus__blog_footer">
+                            <li><i class="far fa-heart"></i> 120</li>
+                            <li><i class="far fa-comment-dots"></i> 345</li>
+                            <li><i class="far fa-eye"></i> 567</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-sm-6 col-md-6 col-lg-4">
+                    <div class="wsus__single_blog">
+                        <a class="wsus__blog_img" href="blog_details.html">
+                            <img src="images/blog_3.jpg" alt="blog" class="img-fluid w-100">
+                        </a>
+                        <div class="wsus__blog_text">
+                            <a class="blog_tag blue" href="#">scholarship </a>
+                            <img src="images/blooger3.jpg" alt="bloger" class="img-fluid w-100">
+                            <a class="blog_title" href="blog_details.html">Expenses You Aren`t Thinking About Those Other College</a>
+                        </div>
+                        <ul class="wsus__blog_footer">
+                            <li><i class="far fa-heart"></i> 120</li>
+                            <li><i class="far fa-comment-dots"></i> 345</li>
+                            <li><i class="far fa-eye"></i> 567</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        BLOG END
+    ===========================-->
+
+
+    <!--==========================
+        TESTIMONIAL START
+    ===========================-->
+    <section class="wsus__testimonial mt_95 xs_mt_35 md_mt_65">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-md-10 col-lg-8 m-auto">
+                    <div class="wsus__heading_area">
+                        <h3 class="heading_title">Feedback from Our Clients</h3>
+                        <p class="heading_dis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, perspiciatis quibusdam. Dolorem repudiandae amet corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row testi_slider">
+                <div class="col-xl-3">
+                    <div class="wsus__single_clients green">
+                        <p class="client_des"><i class="fal fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta minus distinctio tenetur pariatur natus reprehenderit.</p>
+                        <div class="wsus__client_text">
+                            <img src="images/blooger.jpg" alt="clients" class="img-fluid">
+                            <h4>elara hjahan</h4>
+                            <p>designer</p>
+                            <p class="wsus__client_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__single_clients yellow">
+                        <p class="client_des"><i class="fal fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur assumenda adipisicing elit. Assumenda dicta minus distinctio  tenetur pariatur natus.</p>
+                        <div class="wsus__client_text">
+                            <img src="images/blooger2.jpg" alt="clients" class="img-fluid">
+                            <h4>elara hjahan</h4>
+                            <p>developer</p>
+                            <p class="wsus__client_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__single_clients red">
+                        <p class="client_des"><i class="fal fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta minus distinctio tenetur pariatur natus reprehenderit.</p>
+                        <div class="wsus__client_text">
+                            <img src="images/blooger3.jpg" alt="clients" class="img-fluid">
+                            <h4>elara hjahan</h4>
+                            <p>programmer</p>
+                            <p class="wsus__client_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__single_clients blue">
+                        <p class="client_des"><i class="fal fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta minus distinctio tenetur pariatur natus reprehenderit.</p>
+                        <div class="wsus__client_text">
+                            <img src="images/blooger.jpg" alt="clients" class="img-fluid">
+                            <h4>elara hjahan</h4>
+                            <p>graphic designer</p>
+                            <p class="wsus__client_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="wsus__single_clients red">
+                        <p class="client_des"><i class="fal fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dicta minus distinctio tenetur natus reprehenderit.</p>
+                        <div class="wsus__client_text">
+                            <img src="images/blooger2.jpg" alt="clients" class="img-fluid">
+                            <h4>elara hjahan</h4>
+                            <p>ui / ux designer</p>
+                            <p class="wsus__client_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        TESTIMONIAL END
+    ===========================-->
+
+
+    <!--==========================
+        SUBSCRIBE START
+    ===========================-->
+    <section class="wsus__subscribe mt_100 xs_mt_65">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 col-lg-5">
+                    <div class="wsus__subs_text">
+                        <h3 class="text-white">Get e-mail updates</h3>
+                        <p class="text-white">Stay tuned for the latest company news.</p>
+                    </div>
+                </div>
+                <div class="col-xl-7 col-lg-7">
+                    <form class="wsus__subs_form">
+                        <input type="email" placeholder="Enter e-mail Address">
+                        <button type="submit" class="common_btn">subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--==========================
+        SUBSCRIBE END
+    ===========================-->
+
+
+    <!--==========================
+        FOOTER START
+    ===========================-->
+    <footer class="pt_100 xs_pt_70">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-md-8 col-lg-6">
+                    <div class="wsus__footer_text">
+                        <a class="wsus__footer_logo" href="index.html"><i class="fas fa-user-graduate"></i> lms</a>
+                        <p class="footer_dis">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque assumenda hic sit tempore delectus.</p>
+                        <div class="wsus__footer_address">
+                            <a href="callto:01770502844"><i class="far fa-phone-alt"></i> +0254554558888777</a>
+                            <a href="mailto:example@gmail.com"><i class="fal fa-envelope"></i> example@gmail.com</a>
+                            <p><i class="fas fa-street-view"></i> 500 Treat Ave, Suite 200 San Francisco CA 94110</p>
+                            <p><i class="fal fa-globe"></i> www.example.com</p>
+                        </div>
+                        <ul class="footer_icon d-flex mt_30">
+                            <li><a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a class="pinterest" href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                    <div class="wsus__footer_text">
+                        <h4>company</h4>
+                        <ul class="wsus__footer_link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-6 col-md-4 col-lg-3">
+                    <div class="wsus__footer_text">
+                        <h4>neew help</h4>
+                        <ul class="wsus__footer_link">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Content Us</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">service</a></li>
+                            <li><a href="#">team</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-8 col-lg-12">
+                    <div class="wsus__footer_text">
+                        <h4>gallery</h4>
+                        <div class="row">
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_2.jpg">
+                                        <img src="images/blog_2.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_3.jpg">
+                                        <img src="images/blog_3.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-4 col-sm-3 col-md-3 col-lg-2">
+                                <div class="wsus__gallery_single">
+                                    <a class="venobox" data-gall="gallery01" href="images/blog_1.jpg">
+                                        <img src="images/blog_1.jpg" alt="gallery1" class="img-fluid w-100">
+                                        <div class="venobox_overlay">
+                                            <i class="far fa-plus"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wsus__copyrite mt_100 pt_30 pb_30 xs_mt_20 md_mt_60">
+            <p>© 2021 MLS (Learning Management Systems). all Rights Reserved</p>
+        </div>
+    </footer>
+    <!--==========================
+        FOOTER END
+    ===========================-->
+
+
+    <!--============================
+        SCROLL BUTTON START
+    ==============================-->
+    <div class="wsus__scroll_btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--============================
+        SCROLL BUTTON  END
+    ==============================-->
+    
+    
+    <!--jquery library js-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--font-awesome js-->
+    <script src="js/Font-Awesome.js"></script>
+    <!--slick js--> 
+    <script src="js/slick.min.js"></script>
+    <!--isotope js-->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!--counter js-->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <!--venobox js-->
+    <script src="js/venobox.min.js"></script>
+    <!--select2 js-->
+    <script src="js/select2.min.js"></script>
+    <!--sticky sidebar js-->
+    <script src="js/sticky_sidebar.js"></script>
+    <!--particle js-->
+    <script src="js/particle.min.js"></script>
+
+    <!--main/custom js-->
+    <script src="js/main.js"></script>
+</body>
+</html>
